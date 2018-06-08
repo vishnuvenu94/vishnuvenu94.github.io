@@ -1,0 +1,211 @@
+
+body{
+  background-color:#272727;
+}
+.containment{
+  background-color:white;
+  width:65%;
+  margin-left:auto;
+  margin-right:auto;
+  border-radius:10px;
+  padding-bottom:30px;
+  margin-top:50px;
+  min-height:500px;
+  margin-bottom:100px;
+  max-height:auto;
+  
+  
+  
+  
+}
+.toflex{
+ display:flex;
+  width:auto;
+ // background-color:red;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:30px;
+  margin-bottom:10px;
+  
+ 
+}
+.inputed{
+  //background-color:yellow;
+  margin-left:32%;
+  width:30%;
+ 
+  margin-bottom:15px;
+}
+.enter{
+ margin-left:2%;
+ width:8%;
+}
+#input{
+  height:25px;
+  border-radius:3px;
+  border: 1px solid grey;
+  width:100%;
+  font-size:15px;
+  padding-left:6px;
+}
+#button{
+  background-color:#3366FF;
+  width:100%;
+  
+  height:29px;
+  border-radius:3px;
+  border:0px solid grey;
+  margin-bottom:20px;
+  font-size:17px;
+  //margin-left:100%;
+   
+  color:white;
+}
+
+.container{
+  display:grid;
+  grid-template-columns:9fr 1fr 1fr;
+  border:1px solid #66b3ff;
+  width:60%;
+  margin-left:auto;
+  margin-right:auto;
+  font-size:18px;
+  margin-bottom:5px;
+  border-radius:5px;
+   transition: all 0.15s ease-in-out;
+  color:#414a4c;
+  
+  
+}
+.container:hover{
+  background-color:#F8F8F8;
+  transform: scale(1.1);
+}
+
+ .tick{
+  padding-top:18px; 
+}
+.cross{
+  
+  padding-top:18px;
+ 
+  
+} 
+.far{
+  color:#FA8072;
+}
+.far:hover{
+ color:red; 
+ 
+} 
+.fas{
+  color:#A8A8A8;
+}
+p{
+  margin-left:10px;
+  font-size:19px;
+}
+
+#head{
+  text-align:center;
+  //margin-left:31%;
+  padding-top:75px;
+  font-size:27px;
+  
+}
+
+#cleared{
+  width:13%;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:25px;
+}
+#clear{
+  width:100%;
+  background-color:#ff4c4c;
+  height:29px;
+  border-radius:3px;
+  border:0px solid grey;
+  margin-bottom:20px;
+  font-size:17px;
+  //margin-left:100%;
+  transition: all 0.3s ease-in-out;
+  color:white;
+}
+#clear:hover{
+  transform:scale(1.1);
+  background-color:red;
+  
+}
+
+h1{
+  color:#14A76C;
+  //margin-left:44%;
+  text-align:center;
+  margin-top:40px;
+  font-size:45px;
+}
+@media screen and (max-width:945px){
+  .toflex{
+    //display:flex;
+    flex-direction:column;
+  }
+  .enter{
+    margin-left:auto;
+    margin-right:auto;
+    width:15%;
+  }
+  .inputed{
+    margin-left:auto;
+    margin-right:auto;
+    width:65%;
+  }
+  .tick{
+  padding-top:30%; 
+  //margin-right:10px;
+}
+.cross{
+  
+  padding-top:30%;
+ 
+  
+} 
+  .container{
+     grid-template-columns:5fr 1fr 1fr;
+    width:80%;
+  } 
+  #cleared{
+    width:23%;
+  }
+  
+ 
+  
+}
+@media screen and (max-width:600px){
+  .containment{
+    width:98%;
+    
+  }
+  .enter{
+    width:20%;
+  }
+  .container{
+    width:90%;
+    font-size:14px;
+  }
+  
+  .tick{
+  padding-top:18px; 
+  
+}
+  #cleared{
+    width:30%;
+  }
+.cross{
+  
+  padding-top:18px;
+ 
+  
+} 
+}
+  
